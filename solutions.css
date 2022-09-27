@@ -68,3 +68,33 @@
   border-radius: 15px;
   transform: scale(1.5);
 }
+
+/* ES. 10 */
+.ex-10-icon{
+  animation: turn 1s infinite;
+}
+@keyframes turn{
+  0%{
+    transform: rotate(1turn);
+  }
+}
+
+/* ES. 11 */
+.ex-11-icon:hover {
+  animation: turn2 1s;
+}
+@keyframes turn2 {
+  0% {
+      transform: rotate(0);
+  }
+  90% {
+      transform: rotate(360deg);
+  }
+  100% {
+      transform: rotate(0);
+  }
+}
+
+/* ES. 12 */
+
+/* ES. 13 */
